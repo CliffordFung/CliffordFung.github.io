@@ -4,9 +4,12 @@ var navBarLi = document.getElementsByClassName("navbar-container-li");
 
 window.onscroll = function() {onScroll()};
 
+// water ripple effect
 jQuery(document).ready(function(){
   $('.landing-page-container').ripples({
-
+    dropRadius: 30,
+    perturbance: 0.05,
+    resolution: 720
   });
 });
 
@@ -22,14 +25,14 @@ function onScroll() {
       console.log(navBarLi);
       topButton.style.display = "block";
       navBar.style.backgroundColor = "white";
-      navBar.style.borderBottom = "none";
+      navBar.style.borderBottom = "1px solid rgba(0,0,0,.2)";
       for (let i=0; i < navBarLi.length; i++) {
         navBarLi[i].style["color"] = "black";
       }
     } else {
       topButton.style.display = "none";
       navBar.style.backgroundColor = "transparent";
-      navBar.style.borderBottom = "1px solid rgba(0,0,0,.2)";
+      navBar.style.borderBottom = "none";
       for (let i=0; i < navBarLi.length; i++) {
         navBarLi[i].style["color"] = "white";
       }

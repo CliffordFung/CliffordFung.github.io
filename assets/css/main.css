@@ -31,6 +31,7 @@ body, html {
   right: 0;
   z-index: 100;
   transition: background-color 0.2s ease-in-out;
+  border-bottom: none;
 }
 
 .navbar-container-li {
@@ -59,6 +60,20 @@ body, html {
 
 .navbar-container-left {
 	float: left !important;
+}
+
+.page-format-margin {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.page-wrapper h2 {
+  margin: 100px 0 100px 0;
+  text-align: center;
+}
+
+.section-grey {
+  background-color: grey;
 }
 
 #top-button {
