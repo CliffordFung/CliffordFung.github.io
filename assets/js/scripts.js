@@ -2,16 +2,22 @@ var topButton = document.getElementById("top-button");
 var navBar = document.getElementById("navbar-container");
 var navBarLi = document.getElementsByClassName("navbar-container-li");
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {onScroll()};
+
+jQuery(document).ready(function(){
+  $('.landing-page-container').ripples({
+
+  });
+});
 
 // return to top of the page when top-button is clicked
-function topFunction() {
+function topOfPage() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
 
 // change navbar background and display button on scroll
-function scrollFunction() {
+function onScroll() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
       console.log(navBarLi);
       topButton.style.display = "block";
