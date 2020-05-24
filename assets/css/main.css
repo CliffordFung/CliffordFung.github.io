@@ -12,28 +12,45 @@ body, html {
   background-size: cover;
 }
 
-.navbar-container {
+.landing-page-container-display {
+  position: absolute;
+  width: 400px;
+  height: 260px;
+  border-radius: 4px;
+  background-color: grey;
+  opacity: 0.5;
+  top: 110px;
+  left: 160px;
+}
+
+#navbar-container {
 	background-color: transparent;
 	padding: 10px 10px 10px 10px;
 	position: fixed;
 	left: 0;
-	right: 0;
+  right: 0;
+  z-index: 100;
+  transition: background-color 0.2s ease-in-out;
 }
 
-.navbar-container li {
+.navbar-container-li {
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+#navbar-container li {
   float: right;
 }
 
-.navbar-container li a {
+#navbar-container li a {
   display: block;
-  color: white;
   text-align: center;
   padding: 14px 16px;
 	text-decoration: none;
 	font-size: 19px;
 }
 
-.navbar-container ul {
+#navbar-container ul {
   list-style-type: none;
   margin: 0;
 	padding: 0;
@@ -44,3 +61,24 @@ body, html {
 	float: left !important;
 }
 
+#top-button {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  z-index: 100;
+  font-size: 30px;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  padding-top: 5px;
+  width: 40px;
+  height: 35px;
+  opacity: 0.9;
+  border: none;
+  text-align: center;
+}
+
+#top-button:hover {
+  background-color: black;
+}
