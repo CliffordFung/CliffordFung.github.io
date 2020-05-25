@@ -1,7 +1,31 @@
-.about-description-left {
-  width: 50%;
-  height: auto;
+.about-description {
   word-wrap: break-word;
+  font-size: 20px;
+}
+
+.about-image {
+  width: 40%
+}
+
+.about-image-align {
+  position: relative;
+  left: 220px;
+  margin-top: -265px;
+  z-index: 10;
+}
+
+.about-image-border-align {
+  position: relative;
+  left: 200px;
+  top: 40px;
+  z-index: 5;
+}
+
+
+.about-page-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 50% 50%;
 }
 
 body, html {
