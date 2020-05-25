@@ -1,3 +1,9 @@
+.about-description-left {
+  width: 50%;
+  height: auto;
+  word-wrap: break-word;
+}
+
 body, html {
 	height: 100%;
 	margin: 0;
@@ -25,16 +31,16 @@ body, html {
 
 #navbar-container {
 	background-color: transparent;
-	padding: 10px 10px 10px 10px;
+	padding: 37px 60px 37px 95px;
 	position: fixed;
 	left: 0;
   right: 0;
   z-index: 100;
-  transition: background-color 0.2s ease-in-out;
-  border-bottom: none;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: none;
 }
 
-.navbar-container-li {
+.navbar-container-items {
   color: white;
   transition: color 0.2s ease-in-out;
 }
@@ -46,9 +52,9 @@ body, html {
 #navbar-container li a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding-right: 35px;
 	text-decoration: none;
-	font-size: 19px;
+	font-size: 20px;
 }
 
 #navbar-container ul {
@@ -63,17 +69,26 @@ body, html {
 }
 
 .page-format-margin {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 0 5% 0 5%;
+  padding: 40px 0 70px 0;
 }
 
-.page-wrapper h2 {
-  margin: 100px 0 100px 0;
+.page-format-margin h2 {
   text-align: center;
+  font-size: 20px;
+  padding: 30px 0 10px 0;
+  margin-bottom: 0;
+}
+
+.page-format-margin h3 {
+  text-align: center;
+  font-size: 50px;
+  padding: 0 0 35px 0;
+  margin-top: 0;
 }
 
 .section-grey {
-  background-color: grey;
+  background-color: #f8f8f8;
 }
 
 #top-button {
