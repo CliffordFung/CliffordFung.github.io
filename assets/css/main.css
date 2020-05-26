@@ -4,20 +4,18 @@
 }
 
 .about-image {
-  width: 40%
+  width: 65%
 }
 
 .about-image-align {
-  position: relative;
-  left: 220px;
-  margin-top: -265px;
+  float: left;
+  margin: -322px 0 0 230px;
   z-index: 10;
 }
 
 .about-image-border-align {
-  position: relative;
-  left: 200px;
-  top: 40px;
+  float: left;
+  margin: 17px 0 0 200px;
   z-index: 5;
 }
 
@@ -26,6 +24,11 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 50% 50%;
+}
+
+.about-skills {
+  margin-top: 100px;
+  background-color: hotpink;
 }
 
 body, html {
