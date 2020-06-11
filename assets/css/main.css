@@ -5,6 +5,52 @@ body, html {
 	padding: 0;
 }
 
+#top-button {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  z-index: 100;
+  font-size: 2rem;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  border-radius: .3rem;
+  padding-top: .3rem;
+  width: 2.5rem;
+  height: 2rem;
+  opacity: 0.9;
+  border: none;
+  text-align: center;
+  display: none;
+}
+
+#top-button:hover {
+  background-color: black;
+}
+
+.page-format-margin {
+  margin: 0 5% 0 5%;
+  padding: 2rem 0 3rem 0;
+}
+
+.page-format-margin h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem 0 .5rem 0;
+  margin-bottom: 0;
+}
+
+.page-format-margin h3 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0 0 1.5rem 0;
+  margin-top: 0;
+}
+
+.section-grey {
+  background-color: #f8f8f8;
+}
+
 /* about page */
 .about-description {
   word-wrap: break-word;
@@ -13,10 +59,11 @@ body, html {
 
 .about-page-container {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 1rem;
   grid-template-columns: 50% 50%;
 }
 
+/* landing page */
 .landing-page-container {
 	width: 100%;
 	height: 100%;
@@ -27,18 +74,19 @@ body, html {
 
 .landing-page-container-display {
   position: absolute;
-  width: 400px;
-  height: 260px;
-  border-radius: 4px;
+  width: 35%;
+  height: 45%;
+  border-radius: .5rem;
   background-color: grey;
   opacity: 0.5;
-  top: 110px;
-  left: 160px;
+  top: 7.5rem;
+  left: 7rem;
 }
 
+/* navigation bar */
 #navbar-container {
 	background-color: transparent;
-	padding: 37px 60px 37px 95px;
+	padding: 2rem 3rem 2rem 3.5rem;
 	position: fixed;
 	left: 0;
   right: 0;
@@ -59,9 +107,9 @@ body, html {
 #navbar-container li a {
   display: block;
   text-align: center;
-  padding-right: 35px;
+  padding-right: 3rem;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.2rem;
 }
 
 #navbar-container ul {
@@ -73,50 +121,4 @@ body, html {
 
 .navbar-container-left {
 	float: left !important;
-}
-
-.page-format-margin {
-  margin: 0 5% 0 5%;
-  padding: 40px 0 70px 0;
-}
-
-.page-format-margin h2 {
-  text-align: center;
-  font-size: 20px;
-  padding: 30px 0 10px 0;
-  margin-bottom: 0;
-}
-
-.page-format-margin h3 {
-  text-align: center;
-  font-size: 50px;
-  padding: 0 0 35px 0;
-  margin-top: 0;
-}
-
-.section-grey {
-  background-color: #f8f8f8;
-}
-
-#top-button {
-  position: fixed;
-  bottom: 3%;
-  right: 3%;
-  z-index: 100;
-  font-size: 30px;
-  background-color: grey;
-  color: white;
-  cursor: pointer;
-  border-radius: 4px;
-  padding-top: 5px;
-  width: 40px;
-  height: 35px;
-  opacity: 0.9;
-  border: none;
-  text-align: center;
-  display: none;
-}
-
-#top-button:hover {
-  background-color: black;
 }
