@@ -6,11 +6,16 @@ window.onscroll = function() {onScroll()};
 
 // water ripple effect
 jQuery(document).ready(function(){
-  $('.landing-page-container').ripples({
-    dropRadius: 30,
-    perturbance: 0.05,
-    resolution: 720
-  });
+  try {
+    $('.landing-page-container').ripples({
+      dropRadius: 30,
+      perturbance: 0.05,
+      resolution: 720
+    });
+  }
+  catch {
+    // silently fail for devices that don't support this plugin
+  }
 });
 
 // return to top of the page when top-button is clicked

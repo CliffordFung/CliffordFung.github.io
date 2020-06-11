@@ -1,40 +1,20 @@
+/* page formatting */
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* about page */
 .about-description {
   word-wrap: break-word;
-  font-size: 20px;
+  font-size: 1rem;
 }
-
-.about-image {
-  width: 65%
-}
-
-.about-image-align {
-  float: left;
-  margin: -322px 0 0 230px;
-  z-index: 10;
-}
-
-.about-image-border-align {
-  float: left;
-  margin: 17px 0 0 200px;
-  z-index: 5;
-}
-
 
 .about-page-container {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 50% 50%;
-}
-
-.about-skills {
-  margin-top: 100px;
-  background-color: hotpink;
-}
-
-body, html {
-	height: 100%;
-	margin: 0;
-	padding: 0;
 }
 
 .landing-page-container {
