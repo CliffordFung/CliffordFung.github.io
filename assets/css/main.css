@@ -51,37 +51,6 @@ body, html {
   background-color: #f8f8f8;
 }
 
-/* about page */
-.about-description {
-  word-wrap: break-word;
-  font-size: 1rem;
-}
-
-.about-page-container {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 50% 50%;
-}
-
-/* landing page */
-.landing-page-container {
-	width: 100%;
-	height: 100%;
-	background-image: url("../../images/landing_page.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.landing-page-container-display {
-  position: absolute;
-  width: 35%;
-  height: 45%;
-  border-radius: .5rem;
-  background-color: grey;
-  opacity: 0.5;
-  top: 7.5rem;
-  left: 7rem;
-}
 
 /* navigation bar */
 #navbar-container {
@@ -121,4 +90,36 @@ body, html {
 
 .navbar-container-left {
 	float: left !important;
+}
+
+/* landing page */
+.landing-page-container {
+	width: 100%;
+	height: 100%;
+	background-image: url("../../images/landing_page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-page-container-display {
+  position: absolute;
+  width: 35%;
+  height: 45%;
+  border-radius: .5rem;
+  background-color: grey;
+  opacity: 0.5;
+  top: 7.5rem;
+  left: 7rem;
+}
+
+/* about page */
+.about-description {
+  word-wrap: break-word;
+  font-size: 1rem;
+}
+
+.about-page-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 50% 50%;
 }

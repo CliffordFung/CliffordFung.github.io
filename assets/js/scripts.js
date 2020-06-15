@@ -1,5 +1,4 @@
-
-// water ripple effect
+/* water ripple effect */
 // jQuery(document).ready(function(){
 //   $('.landing-page-container').ripples({
 //     dropRadius: 30,
@@ -8,7 +7,7 @@
 //   });
 // });
 
-// return to top button
+/* return to top button */
 var topButton = document.getElementById("top-button");
 window.onscroll = function() {onScroll()};
 // return to top of the page when top-button is clicked
@@ -17,7 +16,7 @@ function topOfPage() {
     document.documentElement.scrollTop = 0;
 }
 
-// navigation bar style on scroll
+/* navigation bar style on scroll */
 var navBar = document.getElementById("navbar-container");
 var navBarItems = document.getElementsByClassName("navbar-container-items");
 // change navbar background and display button on scroll
