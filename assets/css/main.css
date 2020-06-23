@@ -54,7 +54,7 @@ body, html {
 
 /* navigation bar */
 #navbar-container {
-	background-color: transparent;
+	background-color: black;
 	padding: 2rem 3rem 2rem 3.5rem;
 	position: fixed;
 	left: 0;
@@ -69,14 +69,18 @@ body, html {
   transition: color 0.2s ease-in-out;
 }
 
+.navbar-container-items:hover {
+  color: #0782ac !important;
+}
+
 #navbar-container li {
-  float: right;
+  float: left;
 }
 
 #navbar-container li a {
   display: block;
   text-align: center;
-  padding-right: 3rem;
+  margin-right: 3rem;
 	text-decoration: none;
 	font-size: 1.2rem;
 }
@@ -85,11 +89,55 @@ body, html {
   list-style-type: none;
   margin: 0;
 	padding: 0;
-	overflow: hidden;
+  overflow: hidden;
+  float: right;
 }
 
 .navbar-container-left {
 	float: left !important;
+}
+
+/* navigation bar for smaller resolutions */
+.hamburger-menu {
+  position: absolute;
+  top: 1.5rem;
+  right: 3.2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1.5rem;
+  height: 1.2rem;
+}
+
+.hamburger-menu .hamburger-menu-bar {
+  height: .17rem;
+  width: 100%;
+  background-color: white;
+  border-radius: .1rem;
+}
+
+@media (max-width: 800px) {
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .toggle-navbar-display {
+    display: none;
+  }
+
+  #navbar-container ul, #navbar-container li {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #navbar-container li a {
+    padding: .2rem;
+    margin-left: 1.5rem;
+  }
+
+  .toggle-navbar-display.active {
+    display: flex;
+  }
 }
 
 /* landing page */
