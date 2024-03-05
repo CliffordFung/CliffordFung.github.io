@@ -3,6 +3,11 @@ body, html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+
+}
+
+body {
+  cursor: url("../../images/submarine32px.png") 48 48, auto;
 }
 
 #top-button {
@@ -151,13 +156,24 @@ body, html {
 
 .landing-page-container-display {
   position: absolute;
-  width: 35%;
+  width: 50%;
   height: 45%;
-  border-radius: .5rem;
-  background-color: grey;
-  opacity: 0.5;
-  top: 7.5rem;
+  top: 15rem;
   left: 7rem;
+}
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: white;
+  font-size: 5em;
+}
+
+.landing-page-container-display h2 {
+  font-size: 2em;
 }
 
 /* about page */
