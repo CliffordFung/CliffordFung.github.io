@@ -1,0 +1,132 @@
+.skills-bar-container {
+  margin: 96px 24px 24px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-bar-container li {
+  margin-bottom: 12px;
+  background: #666666;
+  position: relative;
+  height: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.skills-bar-container label {
+  color: #fff;
+  position: relative;
+}
+
+.progressbar {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  background-color: #1de9c7;
+}
+
+#progress-react {
+  -webkit-animation-name: progress-react;
+  animation-name: progress-react;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#progress-tsjs {
+  -webkit-animation-name: progress-tsjs;
+  animation-name: progress-tsjs;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#progress-html {
+  -webkit-animation-name: progress-html;
+  animation-name: progress-html;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#progress-css {
+  -webkit-animation-name: progress-css;
+  animation-name: progress-css;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#progress-nodejs {
+  -webkit-animation-name: progress-nodejs;
+  animation-name: progress-nodejs;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+#progress-redux {
+  -webkit-animation-name: progress-redux;
+  animation-name: progress-redux;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@keyframes progress-react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes progress-tsjs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes progress-html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes progress-css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes progress-nodejs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes progress-redux {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}

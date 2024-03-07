@@ -3,10 +3,39 @@
 }
 
 .left-column {
+  display: flex;
+  flex-direction: column;
   margin: 128px 0 128px 128px;
+  width: 75%;
 }
 
+.left-column h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.left-column h4 {
+  margin: 12px 0 0 4px;
+}
 .right-column {
   margin: 128px 128px 128px 0;
   overflow-y: auto;
+}
+
+.icons-container {
+  align-self: center;
+  margin-top: auto;
+}
+
+.icons-container button {
+  all: unset;
+  margin-left: 4px;
+}
+
+.icons-container button:hover {
+  cursor: pointer;
+}
+
+.icons-container a {
+  all: unset;
 }
