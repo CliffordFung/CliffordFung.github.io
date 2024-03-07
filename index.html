@@ -13,8 +13,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/landingPage.css" />
-    <link rel="stylesheet" href="assets/css/slideColours.css" />
-    <link rel="stylesheet" href="assets/css/aboutMePage.css" />
+    <link rel="stylesheet" href="assets/css/contentPage.css" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,15 +21,17 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <!-- JQuery plugin -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
   <body id="home">
-    <div class="container">
+    <div class="scroll-container">
       <!-- landing page -->
       <div class="slides landing-page grid-container">
-        <div class="defafult-page-spacing landing-page-text">
+        <div class="defafult-container-spacing landing-page-text">
           <h1>Hi! I'm Clifford Fung.</h1>
           <h2>
             A passionate web developer who loves creating cool things. Let's
@@ -38,116 +39,129 @@
           </h2>
         </div>
       </div>
-      <!-- about me page -->
-      <div class="slides sunlight-zone">
-        <div class="flex-container center-container">
-          <h1>Beyond The Surface</h1>
+      <div class="slides grid-container content-container">
+        <div class="left-column">
+          <h1>Clifford Fung</h1>
+          <h4>Intermediate Frontend Engineer</h4>
         </div>
-        <div class="flex-container">
-          <div class="flex-container-column">
-            <div class="defafult-page-spacing center-container">
-              <h3>
-                No, I'm not a
-                <a href="https://en.wikipedia.org/wiki/Clifford_the_Big_Red_Dog"
-                  >big red dog</a
-                >, just a dude who's enthusatic about web developement with a
-                frontend focus.
-              </h3>
-              <h3>
-                While surfing the internet back in my teenage years, I
-                accidently opened the inspect element tool on my web browser. I
-                thought I was hacking the website, but actually I was just
-                changing font colours for my own browser session. Because of
-                this encounter, I started spiraling down a rabbit hole of coding
-                and web developement.
-              </h3>
-              <h3>
-                Fast foward today, I've had the privledge to work on some
-                incredible projects with amazing people from start-ups to huge
-                coroporations. I get excited about user-centric web experiences
-                and optimizing web performance. I'm committed to making awful
-                jokes, and staying up to date with latest trends and
-                technologies in this ever-evolving world of web development.
-              </h3>
-            </div>
-          </div>
-          <div class="flex-container-column">
-            <div class="defafult-page-spacing center-container">
-              <div class="bar-container">
-                <div class="title">React</div>
-                <div class="bar" data-width="100%">
-                  <div class="bar-inner" style="border-radius: 5px"></div>
-                  <div class="bar-caption">Proficient</div>
-                </div>
-                <div class="title">TypeScript</div>
-                <div class="bar" data-width="90%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Proficient</div>
-                </div>
-                <div class="title">JavaScript</div>
-                <div class="bar" data-width="100%">
-                  <div class="bar-inner" style="border-radius: 5px"></div>
-                  <div class="bar-caption">Proficient</div>
-                </div>
-                <div class="title">HTML</div>
-                <div class="bar" data-width="95%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Proficient</div>
-                </div>
-                <div class="title">CSS</div>
-                <div class="bar" data-width="75%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Comfortable</div>
-                </div>
-                <div class="title">Redux</div>
-                <div class="bar" data-width="85%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Proficient</div>
-                </div>
-                <div class="title">Node.js</div>
-                <div class="bar" data-width="70%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Comfortable</div>
-                </div>
-                <div class="title">SQL</div>
-                <div class="bar" data-width="65%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Comfortable</div>
-                </div>
-                <div class="title">Git</div>
-                <div class="bar" data-width="70%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Comfortable</div>
-                </div>
-                <div class="title">Docker</div>
-                <div class="bar" data-width="30%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Familiar</div>
-                </div>
-                <div class="title">AWS</div>
-                <div class="bar" data-width="35%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Familiar</div>
-                </div>
-                <div class="title">Python</div>
-                <div class="bar" data-width="60%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Comfortable</div>
-                </div>
-                <div class="title">Slacking Off</div>
-                <div class="bar" data-width="0%">
-                  <div class="bar-inner"></div>
-                  <div class="bar-caption">Never heard of it</div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="right-column">
+          <p>right</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
         </div>
       </div>
-      <div class="slides twilight-zone"></div>
-      <div class="slides midnight-zone"></div>
-      <div class="slides abyss-zone"></div>
-      <div class="slides trenches-zone"></div>
     </div>
 
     <!-- Scripts -->
@@ -155,3 +169,29 @@
     <script src="assets/js/jquery.ripples.js"></script>
   </body>
 </html>
+
+<!-- <div class="defafult-page-spacing center-container">
+  <h3>
+    No, I'm not a
+    <a href="https://en.wikipedia.org/wiki/Clifford_the_Big_Red_Dog"
+      >big red dog</a
+    >, just a dude who's enthusatic about web developement with a
+    frontend focus.
+  </h3>
+  <h3>
+    While surfing the internet back in my teenage years, I
+    accidently opened the inspect element tool on my web browser. I
+    thought I was hacking the website, but actually I was just
+    changing font colours for my own browser session. Because of
+    this encounter, I started spiraling down a rabbit hole of coding
+    and web developement.
+  </h3>
+  <h3>
+    Fast foward today, I've had the privledge to work on some
+    incredible projects with amazing people from start-ups to huge
+    coroporations. I get excited about user-centric web experiences
+    and optimizing web performance. I'm committed to making awful
+    jokes, and staying up to date with latest trends and
+    technologies in this ever-evolving world of web development.
+  </h3>
+</div> -->

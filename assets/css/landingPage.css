@@ -11,3 +11,18 @@
   flex-direction: column;
   margin-top: 25%;
 }
+
+.landing-page-text h1,
+.landing-page-text h2 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: white;
+  font-size: 5em;
+}
+
+.landing-page-text h2 {
+  font-size: 2em;
+}
