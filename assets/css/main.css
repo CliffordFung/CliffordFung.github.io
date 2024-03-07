@@ -1,6 +1,7 @@
-body, html {
-	margin: 0;
-	padding: 0;
+body,
+html {
+  margin: 0;
+  padding: 0;
   cursor: url("../../images/submarine32px.png") 48 48, auto;
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -21,6 +22,21 @@ body, html {
   grid-template-columns: 50% 50%;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-container-column {
+  flex: 1;
+  width: 50%;
+}
+
+.flex-container h1 {
+  margin: 0;
+}
+
 .center-container {
   display: flex;
   align-items: center;
@@ -37,7 +53,9 @@ body, html {
   margin: 5%;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -52,33 +70,37 @@ h2 {
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.5em;
+}
+
+a {
+  color: black;
 }
 
 /* Adjust font sizes for desktops */
 @media screen and (max-width: 1200px) {
   body {
-      font-size: 90%; 
+    font-size: 80%;
   }
 }
 
 /* Adjust font sizes for laptops */
 @media screen and (max-width: 1024px) {
   body {
-      font-size: 80%; 
+    font-size: 70%;
   }
 }
 
 /* Adjust font sizes for tablets */
 @media screen and (max-width: 768px) {
   body {
-      font-size: 60%; 
+    font-size: 50%;
   }
 }
 
 /* Additional adjustments for mobile */
 @media screen and (max-width: 480px) {
   body {
-      font-size: 40%; 
+    font-size: 30%;
   }
 }

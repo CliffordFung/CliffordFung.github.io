@@ -1,19 +1,19 @@
 .sunlight-zone {
-    background: linear-gradient(#ADD8E6, #00008B);
-  }
-  
-  .twilight-zone {
-    background: linear-gradient(#00008B, #000080);
-  }
-  
-  .midnight-zone {
-    background: linear-gradient(#000080, #00008B);
-  }
-  
-  .abyss-zone {
-    background: linear-gradient(#00008B, #000080);
-  }
-  
-  .trenches-zone {
-    background: linear-gradient(#000080, #000000);
-  }
+  background: linear-gradient(#add8e6, #00008b);
+}
+
+.twilight-zone {
+  background: linear-gradient(#00008b, #000080);
+}
+
+.midnight-zone {
+  background: linear-gradient(#000080, #00008b);
+}
+
+.abyss-zone {
+  background: linear-gradient(#00008b, #000080);
+}
+
+.trenches-zone {
+  background: linear-gradient(#000080, #000000);
+}
