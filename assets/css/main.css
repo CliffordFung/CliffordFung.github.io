@@ -21,6 +21,7 @@ html {
   height: 100vh;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .grid-container {
@@ -44,4 +45,13 @@ a {
 
 p {
   color: #94a3b8;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
