@@ -19,7 +19,7 @@
 }
 
 .right-column section {
-  margin-bottom: 32px;
+  margin: 0 16px 32px 0;
 }
 
 .right-column::-webkit-scrollbar-track {
@@ -58,10 +58,29 @@
 }
 
 .card-container {
+  margin-bottom: 16px;
   display: grid;
   grid-template-columns: 25% 75%;
 }
 
 .card-container h4 {
   margin: 16px 0;
+}
+
+.chips-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chips-container li {
+  all: unset;
+  font-size: 14px;
+  color: #171718;
+  border-radius: 16px;
+  margin: 0 2px 8px 2px;
+  padding: 4px 12px;
+  background-color: #1de9c7;
 }
