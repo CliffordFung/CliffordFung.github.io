@@ -38,43 +38,50 @@
 #progress-react {
   -webkit-animation-name: progress-react;
   animation-name: progress-react;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 #progress-tsjs {
   -webkit-animation-name: progress-tsjs;
   animation-name: progress-tsjs;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 #progress-html {
   -webkit-animation-name: progress-html;
   animation-name: progress-html;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 #progress-css {
   -webkit-animation-name: progress-css;
   animation-name: progress-css;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 #progress-nodejs {
   -webkit-animation-name: progress-nodejs;
   animation-name: progress-nodejs;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 #progress-redux {
   -webkit-animation-name: progress-redux;
   animation-name: progress-redux;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+
+#progress-slackingoff {
+  -webkit-animation-name: progress-slackingoff;
+  animation-name: progress-slackingoff;
+  -webkit-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 @keyframes progress-react {
@@ -128,5 +135,14 @@
   }
   100% {
     width: 80%;
+  }
+}
+
+@keyframes progress-slackingoff {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 0%;
   }
 }
