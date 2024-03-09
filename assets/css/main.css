@@ -19,9 +19,7 @@ html {
 .scroll-container {
   width: 100%;
   height: 100vh;
-  scroll-snap-type: y mandatory;
   overflow-y: scroll;
-  scroll-behavior: smooth;
 }
 
 .grid-container {
@@ -32,7 +30,6 @@ html {
 .slides {
   width: 100%;
   height: 100vh;
-  scroll-snap-align: start;
 }
 
 .defafult-container-spacing {
@@ -55,12 +52,7 @@ p {
     align-items: center;
   }
 
-  .scroll-container {
-    scroll-snap-type: none;
-  }
-
   .slides {
-    scroll-snap-align: start;
     height: auto;
   }
 }
