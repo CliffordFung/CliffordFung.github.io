@@ -47,11 +47,20 @@ p {
   color: #94a3b8;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateY(0);
+/* Apply styles for smaller screens */
+@media (max-width: 1024px), (max-height: 730px) {
+  .grid-container {
+    grid-template-columns: 100%;
+    justify-items: center;
+    align-items: center;
   }
-  100% {
-    transform: translateY(-100%);
+
+  .scroll-container {
+    scroll-snap-type: none;
+  }
+
+  .slides {
+    scroll-snap-align: start;
+    height: auto;
   }
 }

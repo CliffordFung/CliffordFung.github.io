@@ -84,3 +84,13 @@
   padding: 4px 12px;
   background-color: #1de9c7;
 }
+
+/* Apply styles for smaller screens */
+@media (max-width: 1024px), (max-height: 730px) {
+  .left-column {
+    margin: 24px;
+  }
+  .right-column {
+    margin: 24px;
+  }
+}

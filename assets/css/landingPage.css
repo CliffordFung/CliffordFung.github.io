@@ -26,3 +26,22 @@
 .landing-page-text h2 {
   font-size: 2em;
 }
+
+/* Apply styles for smaller screens */
+@media (max-width: 1024px), (max-height: 730px) {
+  .landing-page-text {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 750px) {
+  .landing-page-text {
+    margin-top: 8px;
+  }
+  .landing-page-text h1 {
+    font-size: 64px;
+  }
+  .landing-page-text h2 {
+    font-size: 16px;
+  }
+}
