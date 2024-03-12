@@ -57,6 +57,11 @@
   all: unset;
 }
 
+.icon-background {
+  background-color: rgb(131, 103, 103);
+  border-radius: 50%;
+}
+
 .card-container {
   margin-bottom: 16px;
   display: grid;
