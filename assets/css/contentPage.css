@@ -72,6 +72,19 @@
   margin: 16px 0;
 }
 
+.card-container-link {
+  margin: 16px 0;
+}
+
+.card-container button {
+  all: unset;
+  margin-left: 8px;
+}
+
+.card-container button:hover {
+  cursor: pointer;
+}
+
 .chips-container {
   padding: 0;
   margin: 0;
