@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 128px 0;
-  width: 60%;
+  width: 65%;
   justify-self: right;
 }
 
@@ -17,8 +17,9 @@
 .right-column {
   margin: 128px 0;
   overflow-y: auto;
-  width: 60%;
+  width: 65%;
   justify-self: left;
+  padding-right: 16px;
 }
 
 .right-column section {
@@ -44,16 +45,28 @@
 }
 
 .icons-container {
-  margin-top: auto;
+  margin-top: 36px;
+  display: flex;
+  gap: 20px;
 }
 
 .icons-container button {
   all: unset;
-  padding: 0 12px 0 12px;
+}
+
+.icons-container img {
+  width: 32px;
+  height: 32px;
+  transition: width 0.3s ease, height 0.3s ease;
 }
 
 .icons-container button:hover {
   cursor: pointer;
+}
+
+.icons-container img:hover {
+  width: 36px;
+  height: 36px;
 }
 
 .icons-container a {
