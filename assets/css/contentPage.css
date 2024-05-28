@@ -1,8 +1,9 @@
 .left-column {
   display: flex;
   flex-direction: column;
-  margin: 128px 0 128px 128px;
-  width: 75%;
+  margin: 128px 0;
+  width: 60%;
+  justify-self: right;
 }
 
 .left-column h1 {
@@ -14,8 +15,10 @@
   margin-top: 12px;
 }
 .right-column {
-  margin: 128px 128px 128px 0;
+  margin: 128px 0;
   overflow-y: auto;
+  width: 60%;
+  justify-self: left;
 }
 
 .right-column section {
@@ -107,8 +110,10 @@
 @media (max-width: 1024px), (max-height: 730px) {
   .left-column {
     margin: 24px;
+    justify-self: center;
   }
   .right-column {
     margin: 24px;
+    justify-self: center;
   }
 }
