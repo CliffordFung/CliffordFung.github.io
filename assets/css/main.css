@@ -39,7 +39,16 @@ html {
 }
 
 a {
-  color: rgb(109, 196, 236);
+  all: unset;
+  color: white;
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #1de9c7;
 }
 
 p {
