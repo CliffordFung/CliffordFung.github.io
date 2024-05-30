@@ -1,0 +1,16 @@
+h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+h4 {
+  margin: 8px 0;
+}
+
+.projects-container {
+  margin: 128px 256px;
+}
+
+.projects-table {
+  margin: 48px 0;
+}
